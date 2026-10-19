@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="Una historia de amor contada en días, horas y segundos.">
+  <title>Nuestra historia de amor ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="corazones" aria-hidden="true"></div>
+  <main class="contenedor">
+    <header class="inicio">
+      <span class="etiqueta">PARA TI, MI DELIRIO ♡</span>
+      <h1>Nuestra historia de amor, por el momento.<span>♥</span></h1>
+      <p>Hay historias que se cuentan con palabras, pero la nuestra también se cuenta con segundos.</p>
+      <a class="boton" href="#recuerdos">¿Vemos nuestra historia o bueno parte de ella? ↓</a>
+    </header>
+
+    <section id="recuerdos" class="tarjeta">
+      <div class="simbolo">💕</div>
+      <h2>Desde el 5 de junio de 2026 y contando...</h2>
+      <p>Todo este tiempo has sido la mejor novia que podría haber pedido. Cada día contigo es un regalo de Dios que quiero cuidar para siempre.</p>
+      <div class="contador" id="contador-novia" aria-label="Tiempo desde el 5 de junio de 2026">
+        <div><strong data-unidad="dias">0</strong><small>Días</small></div>
+        <div><strong data-unidad="horas">00</strong><small>Horas</small></div>
+        <div><strong data-unidad="minutos">00</strong><small>Minutos</small></div>
+        <div><strong data-unidad="segundos">00</strong><small>Segundos</small></div>
+      </div>
+      <p class="nota">Y seguimos sumando momentos juntos ♡</p>
+    </section>
+
+    <section class="tarjeta">
+      <div class="simbolo">💗</div>
+      <h2>Desde el 25 de febrero de 2026</h2>
+      <p>Desde aquel día, mis labios y mi cuerpo te necesitan, pero sobre todo mi corazón te elige todos los días.</p>
+      <div class="contador" id="contador-beso" aria-label="Tiempo desde el 25 de febrero de 2026">
+        <div><strong data-unidad="dias">0</strong><small>Días</small></div>
+        <div><strong data-unidad="horas">00</strong><small>Horas</small></div>
+        <div><strong data-unidad="minutos">00</strong><small>Minutos</small></div>
+        <div><strong data-unidad="segundos">00</strong><small>Segundos</small></div>
+      </div>
+      <p class="nota">Un recuerdo que siempre llevaré conmigo ♡</p>
+    </section>
+
+    <section class="tarjeta carta-seccion">
+      <div class="simbolo">💌</div>
+      <h2>Una carta para ti</h2>
+      <p>Hay algo más que quiero decirte...</p>
+      <button id="abrir-carta" class="boton" type="button" aria-expanded="false" aria-controls="carta">Abrir mi carta 💌</button>
+      <div id="carta" class="carta" hidden>
+        <p>Mi amor:</p>
+        <p>Gracias por cada sonrisa, cada conversación y cada momento que compartimos. No sé qué nos traerá el futuro, pero sí sé que quiero seguir construyendo recuerdos bonitos contigo.</p>
+        <p>Gracias por formar parte de mi vida y dejar que yo forme parte en la tuya.</p>
+        <p>Dios me dio el mayor regalo y ese regalo lleva tu nombre</p>
+        <p class="firma">Con todo mi cariño, para ti. ❤️</p>
+      </div>
+    </section>
+
+    <section class="tarjeta fotos">
+      <div class="simbolo">📸</div>
+      <h2>Nuestros recuerdos</h2>
+      <p>Aquí estarán nuestras fotografías favoritas.</p>
+      <div class="galeria">
+        <figure><img src="fotos/foto1.jpg" alt="Nuestra primera cita" loading="lazy" onerror="this.parentElement.classList.add('sin-foto')"><figcaption>Un día especial ♡</figcaption></figure>
+        <figure><img src="fotos/foto2.jpg" alt="El dia donde más me hiciste feliz" loading="lazy" onerror="this.parentElement.classList.add('sin-foto')"><figcaption>Contigo soy feliz ♡</figcaption></figure>
+        <figure><img src="fotos/foto3.jpg" alt="Un dia inolvidable" loading="lazy" onerror="this.parentElement.classList.add('sin-foto')"><figcaption>Muchos más por venir ♡</figcaption></figure>
+      </div>
+      <p class="nota">Puedes agregar tus fotos a la carpeta fotos.</p>
+    </section>
+    <footer>Hecho con amor de tiven ♥</footer>
+  </main>
+</body>
+</html>
